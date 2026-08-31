@@ -89,9 +89,9 @@ nav:
   # - Welcome: welcome.md
   - Lab:
       - Overview: overview.md
-      - Lab 1 - Getting Started: lab1_getting_started.md
-      - Conclusion: conclusion.md
-  - Topologies: topologies.md
+      - Lab 1 - Getting Started: lab-scenario-1-the-urban-bean-coffee-roasters.md
+  - Topologies: ab-group-activity-designing-for-your-customer.md
+  - Conclusion: conclusion.md
   - How to use this guide:
       - Setting up and using the tool:
         - Initial Setup: howToUse/initialSetup.md
