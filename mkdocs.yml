@@ -87,20 +87,20 @@ markdown_extensions:
 nav:
   - Home: index.md
   # - Welcome: welcome.md
-  - Lab:
-      - Overview: overview.md
-      - Lab 1 - Getting Started: lab-scenario-1-the-urban-bean-coffee-roasters.md
-  - Topologies: ab-group-activity-designing-for-your-customer.md
-  - Conclusion: conclusion.md
-  - How to use this guide:
-      - Setting up and using the tool:
-        - Initial Setup: howToUse/initialSetup.md
-        - Using the tool after the initial setup: howToUse/postInitial.md
-        - Publishing your changes: howToUse/syncChanges.md
-      - Useful Tools and Resources: howToUse/usefulTools.md
-      - Importing from Word (docx): howToUse/importingFromWord.md
-      - Styling and Advanced Features:
-        - Custom Features: howToUse/customFeatures.md
-        - Custom Admonitions: howToUse/admonition.md
-      - Looking for Inspiration: howToUse/previousEventLabs.md
-      - Before the Event: howToUse/beforeTheEvent.md
+  - Lab Documents:
+   #   - Overview: overview.md
+    - Activity Guide: Webex Calling Design in Action Activity Guide.md
+   # - Topologies: ab-group-activity-designing-for-your-customer.md
+  # - Conclusion: conclusion.md
+  # - How to use this guide:
+  #     - Setting up and using the tool:
+  #         - Initial Setup: howToUse/initialSetup.md
+  #         - Using the tool after the initial setup: howToUse/postInitial.md
+  #         - Publishing your changes: howToUse/syncChanges.md
+  #     - Useful Tools and Resources: howToUse/usefulTools.md
+  #     - Importing from Word (docx): howToUse/importingFromWord.md
+  #     - Styling and Advanced Features:
+  #         - Custom Features: howToUse/customFeatures.md
+  #         - Custom Admonitions: howToUse/admonition.md
+  #     - Looking for Inspiration: howToUse/previousEventLabs.md
+  #     - Before the Event: howToUse/beforeTheEvent.md
