@@ -87,9 +87,8 @@ markdown_extensions:
 nav:
   - Home: index.md
   # - Welcome: welcome.md
-  - Lab Documents:
    #   - Overview: overview.md
-    - Activity Guide: Webex Calling Design in Action Activity Guide.md
+  - Activity Guide: Webex Calling Design in Action Activity Guide.md
    # - Topologies: ab-group-activity-designing-for-your-customer.md
   # - Conclusion: conclusion.md
   # - How to use this guide:
