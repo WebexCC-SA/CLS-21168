@@ -1,0 +1,508 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="CLS-21168 - From Pain Points to Power Moves: Webex Calling Design in Action">
+      
+      
+        <meta name="author" content="Susan Parrish">
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../template_assets/webex75.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Lab 3 Webex Calling: Feature Cheat Sheet - CLS-21168 - From Pain Points to Power Moves: Webex Calling Design in Action</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lab-3-webex-calling-feature-cheat-sheet" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="CLS-21168 - From Pain Points to Power Moves: Webex Calling Design in Action" class="md-header__button md-logo" aria-label="CLS-21168 - From Pain Points to Power Moves: Webex Calling Design in Action" data-md-component="logo">
+      
+  <img src="../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CLS-21168 - From Pain Points to Power Moves: Webex Calling Design in Action
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Lab 3 Webex Calling: Feature Cheat Sheet
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo" aria-label="Switch to dark mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="indigo" aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Webex%20Calling%20Design%20in%20Action%20Activity%20Guide/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Activity Documents
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="CLS-21168 - From Pain Points to Power Moves: Webex Calling Design in Action" class="md-nav__button md-logo" aria-label="CLS-21168 - From Pain Points to Power Moves: Webex Calling Design in Action" data-md-component="logo">
+      
+  <img src="../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    CLS-21168 - From Pain Points to Power Moves: Webex Calling Design in Action
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Webex%20Calling%20Design%20in%20Action%20Activity%20Guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Activity Documents
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="lab-3-webex-calling-feature-cheat-sheet">Lab 3 Webex Calling: Feature Cheat Sheet</h1>
+<p><strong>Popular features and design building blocks</strong></p>
+<p><em>Use this sheet to identify possible features and design questions. Availability, licensing, providers, supported devices, limits, and regional requirements can vary.</em></p>
+<h3 id="administration-features">Administration features</h3>
+<h4 id="1-call-routing-reception">1. Call Routing &amp; Reception</h4>
+<ul>
+<li><strong>Auto Attendant (AA):</strong> The digital receptionist. Uses greetings, keypress menus, business and holiday schedules, and defined no-input and invalid-input routes. It routes callers but does not hold them for an agent.</li>
+<li><strong>Operating Modes:</strong> Routes a managed feature differently by schedule or by an authorized manual mode change. Modes can control forwarding for Auto Attendants, Hunt Groups, Call Queues, and Customer Assist queues.</li>
+<li><strong>Call Queue:</strong> The waiting room. Holds callers until an agent is available and can include routing patterns, announcements, music, callback, overflow, bounced-call and stranded-call handling, forced forwarding, agent states, analytics, and reports.</li>
+<li><strong>Customer Assist:</strong> Adds contact-center capabilities to Webex Calling queues, including screen pop, wrap-up, real-time queue views, and richer agent and supervisor analytics in Webex App. Some experiences require the desktop app.</li>
+<li><strong>Hunt Group:</strong> Distributes calls among members without putting callers in a queue. Routing patterns include Top Down, Circular, Longest Idle, Weighted, and Simultaneous, with a defined busy or no-answer destination.</li>
+<li><strong>Paging Group:</strong> A live, one-way audio broadcast to eligible phones. Originators and target devices are defined so only authorized users can start a page.</li>
+<li><strong>Call Pickup Group:</strong> Allows a group member to answer a call ringing another member's supported phone or Webex App without sharing credentials or changing the called number.</li>
+<li><strong>External and Queue Caller ID:</strong> Controls the business number presented by a user, workspace, virtual line, or queue. A permitted queue identity can keep service callbacks recognizable and returnable; PSTN provider and CNAM rules still apply.</li>
+<li><strong>Virtual Lines:</strong> Additional cloud-based lines that are not tied to a dedicated user. They can support shared line appearances, service identities, call routing, recording policies, or shared voicemail designs.</li>
+</ul>
+<h4 id="2-mobility-flexible-work">2. Mobility &amp; Flexible Work</h4>
+<ul>
+<li><strong>Webex App:</strong> The primary interface for calling, messaging, and meetings on desktop and mobile. Webex Calling presents the approved business identity instead of a personal mobile number.</li>
+<li><strong>Webex Go:</strong> Mobile operator integration that adds a Webex Calling business number to a supported phone's native dialer. Carrier, country, device, and entitlement support must be confirmed.</li>
+<li><strong>Hot Desking:</strong> Lets an eligible user book and sign in to a supported shared workspace phone so the device loads the user's line and permitted personal calling information for the booking period.</li>
+<li><strong>Hot Desking Pre-booking / Workspace Booking:</strong> Allows a shared workspace or device to be reserved before arrival through an approved calendar, Cisco Spaces, or supported third-party booking service. The user confirms identity when claiming the resource.</li>
+<li><strong>Hot Desking Sign-out and Privacy:</strong> Removes the user's line, calendar, call history, contacts, and other personal data at manual or automatic sign-out. An active call delays automatic sign-out until the call ends.</li>
+<li><strong>Call Forwarding:</strong> Redirects incoming calls to another number, user, or voicemail. Common choices include Forward All, Busy, No Answer, and Selective Forwarding.</li>
+<li><strong>Network-Disconnect Forwarding:</strong> Forwards calls for an eligible user or workspace when its primary calling devices are unreachable because the office loses connectivity. It addresses a different failure point than PSTN or gateway resiliency.</li>
+</ul>
+<h4 id="3-productivity-integrations-compliance">3. Productivity, Integrations &amp; Compliance</h4>
+<ul>
+<li><strong>Call Recording:</strong> Captures call audio under an assigned policy for users, workspaces, virtual lines, or queues. Design decisions include provider, Always or On-Demand behavior, pause or resume, announcements, access, storage, and retention.</li>
+<li><strong>Voicemail Group / Shared Voicemail:</strong> Provides a shared mailbox for a department or call-routing feature. A voicemail group or virtual-line mailbox can have a common greeting, controlled access, notifications, and an optional transfer-to-zero destination.</li>
+<li><strong>Email a Copy of Message:</strong> Sends the voicemail audio recording to a designated email address. This is different from a new-message notification; internal versus external storage choices affect in-app access and transcription.</li>
+<li><strong>Voicemail Transcription:</strong> Converts supported voicemail messages to text and can deliver the transcript with the audio by email when the organization and mailbox settings allow it.</li>
+<li><strong>Customer Assist screen pop:</strong> Customer Assist screen pop can open a supported URL or search workflow for inbound calls; define how known, duplicate, and unknown numbers are handled. Can be used to provide information about customers from CRM’s such as Salesforce.</li>
+<li><strong>Webex Calling Detailed Call History / CDR:</strong> Organizational call metadata such as parties, time, direction, duration, and routing. Detailed Call History reports or the CDR API support analysis and export; CDR is not conversation audio.</li>
+<li><strong>Compliance, eDiscovery, and Legal Hold:</strong> Allows an authorized compliance officer to search and export eligible Webex Calling CDR and call-recording content and preserve covered data under legal hold. Availability, retention, licensing, geography, and provider storage must be confirmed.</li>
+<li><strong>Queue Analytics, Reports, and Supervisor Views:</strong> Provides live and historical queue and agent information, including answered and abandoned calls, wait and handle measures, agent state, and service-level trends. The exact experience depends on Call Queue or Customer Assist licensing.</li>
+<li><strong>Call Park:</strong> Places a call on a park extension so another authorized user can retrieve it from a supported phone or app.</li>
+<li><strong>Privacy / Do Not Disturb:</strong> Helps a user control interruptions and visibility. Do Not Disturb changes how calls alert the user; caller-ID privacy controls whether an outbound number is presented.</li>
+</ul>
+<h4 id="4-connectivity-pstn-resiliency">4. Connectivity, PSTN &amp; Resiliency</h4>
+<ul>
+<li><strong>Cisco Calling Plan:</strong> Cisco supplies supported phone numbers and PSTN connectivity for eligible locations, simplifying cloud calling ownership where available.</li>
+<li><strong>Cloud Connected PSTN (CCP):</strong> Uses a supported cloud PSTN provider for the selected country and location without customer-managed on-premises PSTN hardware.</li>
+<li><strong>Premises-based PSTN / Local Gateway (LGW):</strong> Connects Webex Calling to an on-premises PSTN provider or PBX through a supported session border controller. It adds dial-plan, security, resiliency, monitoring, and support-owner responsibilities.</li>
+<li><strong>Trunks, Route Groups, and Dial Plans:</strong> A trunk connects Webex Calling to the premises; a route group combines trunks for distribution or redundancy; a dial plan routes matching enterprise numbers to a trunk or route group.</li>
+<li><strong>PSTN Migration and Number Porting:</strong> Coordinates number ownership, port orders, main and location numbers, caller ID, coexistence, cutover, rollback, and support ownership when moving public calling to Webex Calling.</li>
+<li><strong>Emergency Calling and Location Addressing:</strong> Aligns emergency-service requirements, location and address information, endpoint movement, notifications, and provider obligations with the selected PSTN design and operating regions.</li>
+</ul>
+<h4 id="5-shared-spaces-devices-meetings">5. Shared Spaces, Devices &amp; Meetings</h4>
+<ul>
+<li><strong>Cisco Board, Desk, and Room Series:</strong> Collaboration devices selected according to room size, seating, camera sight lines, microphone pickup, speakers, displays, controls, accessibility, and support needs.</li>
+<li><strong>RoomOS Content Sharing and Meeting Interoperability:</strong> Supports wired or wireless content sharing and Webex or supported external meeting join workflows. Available methods and layouts depend on the device, RoomOS version, displays, and meeting service.</li>
+<li><strong>Room and Bandwidth Design:</strong> Matches media quality and display layout to the network and room. Bandwidth is shared dynamically across audio, main video, content, screens, and layouts, so room-specific discovery matters.</li>
+</ul>
+<h3 id="lab-webex-user-hub-the-end-user-control-center">Lab Webex User Hub: The End-User Control Center</h3>
+<h4 id="1-call-handling-flexibility-on-the-go">1. Call Handling (Flexibility on the Go)</h4>
+<ul>
+<li><strong>Call Forwarding:</strong> Users can manage permitted Forward All, Busy, No Answer, Selective, and network-disconnect options. Organization or workspace policy can affect which settings are available.</li>
+<li><strong>Simultaneous Ring:</strong> Rings multiple destinations at the same time so the user can answer from the most convenient device.</li>
+<li><strong>Sequential Ring:</strong> Rings a defined series of destinations in order before following the final no-answer treatment.</li>
+<li><strong>Do Not Disturb (DND):</strong> Suppresses normal call alerting so the user can avoid interruptions; final call treatment follows the applicable calling settings.</li>
+<li><strong>Operating Mode Management:</strong> An authorized user can view and switch assigned operating modes for managed calling features, including scheduled and exception routing.</li>
+</ul>
+<h4 id="2-voicemail-management-the-set-it-and-forget-it-features">2. Voicemail Management (The "Set it and Forget it" Features)</h4>
+<ul>
+<li><strong>Voicemail Greeting:</strong> Users can record and manage their personal professional greetings when allowed by policy.</li>
+<li><strong>Voicemail-to-Email:</strong> Users can select an email address for an audio copy when that option is enabled; this is different from notification-only email.</li>
+<li><strong>Voicemail PIN:</strong> Users can reset their own PIN without a help-desk request when self-service is available.</li>
+<li><strong>Transcription:</strong> Users can receive supported voicemail transcripts when transcription is enabled for the organization and mailbox.</li>
+</ul>
+<h4 id="3-privacy-personalization">3. Privacy &amp; Personalization</h4>
+<ul>
+<li><strong>Block Caller ID:</strong> Users can suppress their number for eligible outbound calls when the organization and PSTN service allow it.</li>
+<li><strong>Call Logs:</strong> Users can view their own recent incoming, outgoing, and missed calls. Personal call history is not an organizational CDR or compliance archive.</li>
+<li><strong>Profile Settings:</strong> Users can manage permitted profile preferences such as display name, time zone, and language.</li>
+</ul>
+<h4 id="4-device-management">4. Device Management</h4>
+<ul>
+<li><strong>Devices and App Downloads:</strong> Users can see devices associated with their account and download Webex App for supported desktop and mobile platforms.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2026 Cisco
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.instant", "navigation.top", "navigation.footer", "search.suggest", "content.code.copy", "toc.integrate"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../template_assets/js/newLoad.js"></script>
+      
+        <script src="../template_assets/js/setInfo.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": false, "openEffect": "fade", "closeEffect": "fade", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
