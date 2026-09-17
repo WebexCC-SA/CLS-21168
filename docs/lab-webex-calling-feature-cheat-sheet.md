@@ -1,12 +1,11 @@
-# Lab 3 Webex Calling: Feature Cheat Sheet
+# Webex Calling: Feature Cheat Sheet
 
 **Popular features and design building blocks**
 
 *Use this sheet to identify possible features and design questions. Availability, licensing, providers, supported devices, limits, and regional requirements can vary.*
+## Administration features
 
-### Administration features
-
-#### 1. Call Routing & Reception
+### 1. Call Routing & Reception
 
 * **Auto Attendant (AA):** The digital receptionist. Uses greetings, keypress menus, business and holiday schedules, and defined no-input and invalid-input routes. It routes callers but does not hold them for an agent.
 * **Operating Modes:** Routes a managed feature differently by schedule or by an authorized manual mode change. Modes can control forwarding for Auto Attendants, Hunt Groups, Call Queues, and Customer Assist queues.
@@ -18,7 +17,7 @@
 * **External and Queue Caller ID:** Controls the business number presented by a user, workspace, virtual line, or queue. A permitted queue identity can keep service callbacks recognizable and returnable; PSTN provider and CNAM rules still apply.
 * **Virtual Lines:** Additional cloud-based lines that are not tied to a dedicated user. They can support shared line appearances, service identities, call routing, recording policies, or shared voicemail designs.
 
-#### 2. Mobility & Flexible Work
+### 2. Mobility & Flexible Work
 
 * **Webex App:** The primary interface for calling, messaging, and meetings on desktop and mobile. Webex Calling presents the approved business identity instead of a personal mobile number.
 * **Webex Go:** Mobile operator integration that adds a Webex Calling business number to a supported phone's native dialer. Carrier, country, device, and entitlement support must be confirmed.
@@ -28,7 +27,7 @@
 * **Call Forwarding:** Redirects incoming calls to another number, user, or voicemail. Common choices include Forward All, Busy, No Answer, and Selective Forwarding.
 * **Network-Disconnect Forwarding:** Forwards calls for an eligible user or workspace when its primary calling devices are unreachable because the office loses connectivity. It addresses a different failure point than PSTN or gateway resiliency.
 
-#### 3. Productivity, Integrations & Compliance
+### 3. Productivity, Integrations & Compliance
 
 * **Call Recording:** Captures call audio under an assigned policy for users, workspaces, virtual lines, or queues. Design decisions include provider, Always or On-Demand behavior, pause or resume, announcements, access, storage, and retention.
 * **Voicemail Group / Shared Voicemail:** Provides a shared mailbox for a department or call-routing feature. A voicemail group or virtual-line mailbox can have a common greeting, controlled access, notifications, and an optional transfer-to-zero destination.
@@ -41,7 +40,7 @@
 * **Call Park:** Places a call on a park extension so another authorized user can retrieve it from a supported phone or app.
 * **Privacy / Do Not Disturb:** Helps a user control interruptions and visibility. Do Not Disturb changes how calls alert the user; caller-ID privacy controls whether an outbound number is presented.
 
-#### 4. Connectivity, PSTN & Resiliency
+### 4. Connectivity, PSTN & Resiliency
 
 * **Cisco Calling Plan:** Cisco supplies supported phone numbers and PSTN connectivity for eligible locations, simplifying cloud calling ownership where available.
 * **Cloud Connected PSTN (CCP):** Uses a supported cloud PSTN provider for the selected country and location without customer-managed on-premises PSTN hardware.
@@ -50,35 +49,36 @@
 * **PSTN Migration and Number Porting:** Coordinates number ownership, port orders, main and location numbers, caller ID, coexistence, cutover, rollback, and support ownership when moving public calling to Webex Calling.
 * **Emergency Calling and Location Addressing:** Aligns emergency-service requirements, location and address information, endpoint movement, notifications, and provider obligations with the selected PSTN design and operating regions.
 
-#### 5. Shared Spaces, Devices & Meetings
+### 5. Shared Spaces and Devices
 
-* **Cisco Board, Desk, and Room Series:** Collaboration devices selected according to room size, seating, camera sight lines, microphone pickup, speakers, displays, controls, accessibility, and support needs.
-* **RoomOS Content Sharing and Meeting Interoperability:** Supports wired or wireless content sharing and Webex or supported external meeting join workflows. Available methods and layouts depend on the device, RoomOS version, displays, and meeting service.
-* **Room and Bandwidth Design:** Matches media quality and display layout to the network and room. Bandwidth is shared dynamically across audio, main video, content, screens, and layouts, so room-specific discovery matters.
+* **Workspaces:** Shared, location-based calling identities for conference rooms, common areas, hot desks, and other shared spaces. Workspaces can have assigned devices, extensions, and phone numbers. [Cisco documentation](https://help.webex.com/article/n9r1aac)
+* **DECT Network:** A Control Hub container for managing Cisco DECT base stations and handsets, including single-cell and multicell deployments, handset assignments, and multiple lines.
+* **Cisco Wireless Devices (Phones):** Cisco Wireless Phones 840 and 860 that provide mobile Webex Calling service over Wi-Fi and can be onboarded and assigned to users.
 
-### Lab Webex User Hub: The End-User Control Center
+## Webex User Hub: The End-User Control Center
 
-#### 1. Call Handling (Flexibility on the Go)
+### 1. Call Handling (Flexibility on the Go)
 
 * **Call Forwarding:** Users can manage permitted Forward All, Busy, No Answer, Selective, and network-disconnect options. Organization or workspace policy can affect which settings are available.
 * **Simultaneous Ring:** Rings multiple destinations at the same time so the user can answer from the most convenient device.
 * **Sequential Ring:** Rings a defined series of destinations in order before following the final no-answer treatment.
 * **Do Not Disturb (DND):** Suppresses normal call alerting so the user can avoid interruptions; final call treatment follows the applicable calling settings.
 * **Operating Mode Management:** An authorized user can view and switch assigned operating modes for managed calling features, including scheduled and exception routing.
+* **Personal Call Routing:** A scheduled “away” experience that plays a greeting, updates the user’s availability, and routes callers to voicemail or an attendant/alternate number. [Cisco documentation](https://help.webex.com/article/n05rxeo)
 
-#### 2. Voicemail Management (The "Set it and Forget it" Features)
+### 2. Voicemail Management (The "Set it and Forget it" Features)
 
 * **Voicemail Greeting:** Users can record and manage their personal professional greetings when allowed by policy.
 * **Voicemail-to-Email:** Users can select an email address for an audio copy when that option is enabled; this is different from notification-only email.
 * **Voicemail PIN:** Users can reset their own PIN without a help-desk request when self-service is available.
 * **Transcription:** Users can receive supported voicemail transcripts when transcription is enabled for the organization and mailbox.
 
-#### 3. Privacy & Personalization
+### 3. Privacy & Personalization
 
 * **Block Caller ID:** Users can suppress their number for eligible outbound calls when the organization and PSTN service allow it.
 * **Call Logs:** Users can view their own recent incoming, outgoing, and missed calls. Personal call history is not an organizational CDR or compliance archive.
 * **Profile Settings:** Users can manage permitted profile preferences such as display name, time zone, and language.
 
-#### 4. Device Management
+### 4. Device Management
 
 * **Devices and App Downloads:** Users can see devices associated with their account and download Webex App for supported desktop and mobile platforms.
