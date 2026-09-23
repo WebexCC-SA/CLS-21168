@@ -16,8 +16,8 @@ This will will help you:
 * Use the cheat sheet, each other, your own Collaboration Control Hub for reference, instructor provided demo login, and/or <a href="https://help.webex.com" >help.webex.com.</a>
 * We are not configuring anything in Collaboration Control Hub.
   
-  Demo logins
-  <<<INSERT HERE>>>
+### Demo logins
+ Will be added prior to workshop
 
 ## **What every team should deliver**
 
@@ -25,7 +25,7 @@ This will will help you:
 * A coherent set of Webex Calling features mapped to the numbered requirements.
 * At least three discovery questions or clearly stated assumptions that could change the design.
 * One recommendation based on your previous experience, i.e., something the customer may not have thought of.
-* Prepare a two-minute recommendation to share.
+* A two-minute recommendation to share.
   
   
 [Let's go! Click here to find your customer scenario.](customer-scenarios.md){ .md-button .md-button--primary }
