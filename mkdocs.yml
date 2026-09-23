@@ -86,10 +86,11 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 nav:
   - Home: index.md
-  - Getting started: lab-group-activity-designing-for-your-customer.md
+  - Overview: overview.md
    
   - Customer Scenarios:
        - Urban Bean Coffee Roasters: lab-scenario-1-the-urban-bean-coffee-roasters.md
        - Riverside Unified School District: lab-scenario-2-riverside-unified-school-district.md
   - Webex Calling Feature Cheat Sheet: lab-webex-calling-feature-cheat-sheet.md
- 
+  #- Possible Scenario Outcomes: possible-scenario-designs.md
+  - Wrapping Up: wrappingup.md

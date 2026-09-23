@@ -1,12 +1,18 @@
-# Lab Scenario 2 - Riverside Unified School District (RUSD)
+# Lab Scenario 2 - Riverside Unified School District
 
-Public K-12 school district | PAIN: Too many transfers + inconsistent call handling | OUTCOME: Families reach the right school or staff member
+![Riverside Unified School District](assets/riverside-unified-school-district-horizontal.png){: width="300px" }
 
-**CUSTOMER VOICE**<br>
-We are a small public school district with an elementary school, a middle school, and a high school. Families often call the district number when they really need a school office, attendance, transportation, or a teacher. We want a simple menu, a staff directory, and direct extension dialing so callers can reach the right person without a chain of transfers. Our office assistants answer regular calls; they are not a formal customer-service team. We also need shared attendance voicemail, English and Spanish call paths, and consistent messages for holidays, delayed openings, and closures. |
+**INDUSTRY:** Public K-12 school district | **PAIN:** Too many transfers + inconsistent call handling
+
+!!! quote "Customer Voice"
+
+    We are a small public school district with an elementary school, a middle school, and a high school. Families often call the district number when they really need a school office, attendance, transportation, or a teacher. We want a simple menu, a staff directory, and direct extension dialing so callers can reach the right person without a chain of transfers. Our office assistants answer regular calls; they are not a formal customer-service team. We also need shared attendance voicemail, English and Spanish call paths, and consistent messages for holidays, delayed openings, and closures.
 
 **DESIGN INSTRUCTION**<br>
-Do not start with a feature list. Translate the numbered requirements into the smallest design that creates the stated outcome. Use the cheat sheet and, if available, optional read-only Control Hub browsing as references; no system changes are part of this activity. |
+* Do not start with a feature list. Translate the numbered requirements into the smallest design that creates the stated outcome.
+* Use the cheat sheet, each other, your own Collaboration Control Hub or instructor provided demo login for reference, and/or help.webex.com.
+* We are not configuring anything in Collaboration Control Hub.
+* There may be more than one way to meet requirements.
 
 ## **Current environment**
 
@@ -15,7 +21,7 @@ Do not start with a feature list. Translate the numbered requirements into the s
 * Each school main office has three administrative assistants who answer calls as part of their normal duties. There is no queue sign-in process, callback service, or dedicated call supervisor.
 * Attendance messages belong to each school office, not to one employee. English and Spanish are the most common languages, and the district needs separate behavior for school days, after hours, holidays, delayed openings, and closures.
   
-## **RUSD requirements**
+## **Requirements**
 
 **RS-1 District main number as a clear front door**
 
@@ -65,21 +71,14 @@ Do not start with a feature list. Translate the numbered requirements into the s
 
 **Success looks like:** Scheduled behavior changes automatically, and authorized staff can activate and restore a district-wide or school-specific delay or closure without rebuilding menus.
 
-## **Known constraints**
-
-* Do not assume Customer Assist or a Call Queue: office assistants have no queue states, callback promise, or dedicated supervisor workflow in the stated requirements.
-* Dial by name and dial by extension provide directory access; they do not decide whether a teacher should answer during instruction. That remains a district policy and per-user call-handling decision.
-* An Auto Attendant uses one selected language for its default prompts. A separate Spanish Auto Attendant is usually the cleaner way to provide Spanish system prompts and a parallel menu.
-
-## Your design challenge
+## **Design challenge**
 
 1. **Prioritize:** Identify the three requirements that most directly protect customer experience or operations.
 2. **Map:** Name the Webex Calling feature or design decision that addresses each numbered requirement.
 3. **Detail:** Describe the important route, identity, schedule, membership, role, desktop, or policy choices at a conceptual level.
 4. **Explain:** State why this choice fits the business better than a plausible alternative.
 5. **Discover:** Ask at least three questions whose answers could change the design.
-6. **Walk through:** Explain the normal customer experience and at least one relevant after-hours, invalid-input, no-answer, unavailable-team, full-queue, callback, or closure path in words.
-7. **Present: Prepare a two-minute recommendation using requirement IDs so the customer can trace every choice.**
+6. **Present: Prepare a two-minute recommendation using requirement IDs so the customer can trace every choice.**
 
 ##  **Discussion checkpoints**
 

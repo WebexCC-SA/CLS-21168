@@ -1,21 +1,27 @@
 # Lab Scenario 1 - Urban Bean Coffee Roasters
 
-Retail + wholesale food service | PAIN: Mobile work + fragmented wholesale service | OUTCOME: Professional reachability + account-aware support
+![Urban Bean Coffee Roasters](assets/urban-bean-coffee-roasters-horizontal.png){: width="300px" }
 
-**CUSTOMER VOICE** <br>
-We have one storefront, a roastery, and a warehouse, but our wholesale business now serves cafes, hotels, and restaurants across the region. Store and operations employees are rarely at desks, and they must not expose personal mobile numbers. Wholesale customers call about orders, deliveries, and equipment support, and our service coordinators use a CRM to manage those accounts. We want one professional phone experience that routes callers correctly, gives the wholesale team useful account context, and still lets warehouse staff hear delivery announcements. |
+**INDUSTRY:** Retail + wholesale food service | **PAIN:** Mobile work + fragmented wholesale service
+
+!!! quote "Customer Voice"
+
+    We have one storefront, a roastery, and a warehouse, but our wholesale business now serves cafes, hotels, and restaurants across the region. Store and operations employees are rarely at desks, and they must not expose personal mobile numbers. Wholesale customers call about orders, deliveries, and equipment support, and our service coordinators use a CRM to manage those accounts. We want one professional phone experience that routes callers correctly, gives the wholesale team useful account context, and still lets warehouse staff hear delivery announcements.
 
 **DESIGN INSTRUCTION**<br>
-Do not start with a feature list. Translate the numbered requirements into the smallest design that creates the stated outcome. Use the cheat sheet and, if available, optional read-only Control Hub browsing as references; no system changes are part of this activity. |
+* Do not start with a feature list. Translate the numbered requirements into the smallest design that creates the stated outcome.
+* Use the cheat sheet, each other, your own Collaboration Control Hub for reference, instructor provided Control Hub demo login, and/or help.webex.com.
+* We are not configuring anything in Collaboration Control Hub.
+* There may be more than one way to meet requirements.
 
 ## **Current environment**
 
-* The company is replacing a legacy key system while retaining one published main number and a separate wholesale number used on invoices.
+* Urban Bean Coffee Roasters (UB) is replacing a legacy key system while retaining one published main number and a separate wholesale number used on invoices.
 * Ten storefront, roastery, and warehouse employees work away from desks. Some carry personal phones and some use company-owned phones.
 * Four wholesale service coordinators answer order, delivery, and equipment questions from Webex App desktop. A CRM stores business accounts, contacts, and cases.
 * Retail hours, wholesale service hours, holidays, and weather closures differ. The warehouse has four supported desk phones used by receiving, roasting, packing, and the supervisor.
 
-## **Urban Bean requirements**
+## **Requirements**
 
 **UB-1 One professional front door**
 
@@ -59,21 +65,14 @@ Do not start with a feature list. Translate the numbered requirements into the s
 
 **Success looks like:** Scheduled changes occur automatically, an authorized manager can switch and restore a closure, and messages remain owned by the wholesale team rather than one employee.
 
-## **Known constraints**
-
-* Customer Assist screen pop is a desktop workflow; it does not replace the mobile calling experience needed by storefront and warehouse employees.
-* Caller-number matching supplies context but does not guarantee that one phone number identifies one CRM record or one person.
-* Webex Go is an option only after confirming the supported provider, plan, device or eSIM, and entitlement; Webex App mobile remains a valid app-based design.
-
-## Your design challenge
+## **Design challenge**
 
 1. **Prioritize:** Identify the three requirements that most directly protect customer experience or operations.
 2. **Map:** Name the Webex Calling feature or design decision that addresses each numbered requirement.
 3. **Detail:** Describe the important route, identity, schedule, membership, role, desktop, or policy at a conceptual level.
 4. **Explain:** State why this choice fits the business better than a plausible alternative.
 5. **Discover:** Ask at least three questions whose answers could change the design.
-6. **Walk through:** Explain the normal customer experience and at least one relevant after-hours, invalid-input, no-answer, unavailable-team, full-queue, callback, or closure path in words.
-7. **Present: Prepare a two-minute recommendation using requirement IDs so the customer can trace every choice.**
+6. **Present: Prepare a two-minute recommendation using requirement IDs so the customer can trace every choice.**
 
 ## **Discussion checkpoints**
 
