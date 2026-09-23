@@ -8,7 +8,8 @@
 
     We are a small public school district with an elementary school, a middle school, and a high school. Families often call the district number when they really need a school office, attendance, transportation, or a teacher. We want a simple menu, a staff directory, and direct extension dialing so callers can reach the right person without a chain of transfers. Our office assistants answer regular calls; they are not a formal customer-service team. We also need shared attendance voicemail, English and Spanish call paths, and consistent messages for holidays, delayed openings, and closures.
 
-**DESIGN INSTRUCTION**<br>
+**DESIGN INSTRUCTION**
+
 * Do not start with a feature list. Translate the numbered requirements into the smallest design that creates the stated outcome.
 * Use the cheat sheet, each other, your own Collaboration Control Hub or instructor provided demo login for reference, and/or help.webex.com.
 * We are not configuring anything in Collaboration Control Hub.

@@ -8,7 +8,8 @@
 
     We have one storefront, a roastery, and a warehouse, but our wholesale business now serves cafes, hotels, and restaurants across the region. Store and operations employees are rarely at desks, and they must not expose personal mobile numbers. Wholesale customers call about orders, deliveries, and equipment support, and our service coordinators use a CRM to manage those accounts. We want one professional phone experience that routes callers correctly, gives the wholesale team useful account context, and still lets warehouse staff hear delivery announcements.
 
-**DESIGN INSTRUCTION**<br>
+**DESIGN INSTRUCTION**
+
 * Do not start with a feature list. Translate the numbered requirements into the smallest design that creates the stated outcome.
 * Use the cheat sheet, each other, your own Collaboration Control Hub for reference, instructor provided Control Hub demo login, and/or help.webex.com.
 * We are not configuring anything in Collaboration Control Hub.
