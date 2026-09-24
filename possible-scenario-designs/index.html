@@ -1,0 +1,808 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="CLS-21168 - From Pain Points to Power Moves: Webex Calling Design in Action">
+      
+      
+        <meta name="author" content="Susan Parrish">
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../template_assets/webex75.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Possible Scenario Designs - CLS-21168 - From Pain Points to Power Moves: Webex Calling Design in Action</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#possible-scenario-designs" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="CLS-21168 - From Pain Points to Power Moves: Webex Calling Design in Action" class="md-header__button md-logo" aria-label="CLS-21168 - From Pain Points to Power Moves: Webex Calling Design in Action" data-md-component="logo">
+      
+  <img src="../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CLS-21168 - From Pain Points to Power Moves: Webex Calling Design in Action
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Possible Scenario Designs
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="indigo" aria-label="Switch to dark mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="indigo" aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../overview/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Overview
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../lab-scenario-1-the-urban-bean-coffee-roasters/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Customer Scenarios
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../lab-webex-calling-feature-cheat-sheet/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Webex Calling Feature Cheat Sheet
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../wrappingup/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Wrapping Up
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="CLS-21168 - From Pain Points to Power Moves: Webex Calling Design in Action" class="md-nav__button md-logo" aria-label="CLS-21168 - From Pain Points to Power Moves: Webex Calling Design in Action" data-md-component="logo">
+      
+  <img src="../template_assets/webexLogo91.png" alt="logo">
+
+    </a>
+    CLS-21168 - From Pain Points to Power Moves: Webex Calling Design in Action
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3">
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Customer Scenarios
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Customer Scenarios
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab-scenario-1-the-urban-bean-coffee-roasters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Urban Bean Coffee Roasters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab-scenario-2-riverside-unified-school-district/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Riverside Unified School District
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../lab-webex-calling-feature-cheat-sheet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Webex Calling Feature Cheat Sheet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../wrappingup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Wrapping Up
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="possible-scenario-designs">Possible Scenario Designs</h1>
+<p>These are possible designs for each scenario. Other designs may also be valid if they meet the customer requirements, explain the tradeoffs, and identify important assumptions.</p>
+<h2 id="urban-bean-coffee-roasters">Urban Bean Coffee Roasters</h2>
+<h3 id="design-at-a-glance">Design at a glance</h3>
+<p>Auto Attendant → mobile Webex Calling identities → wholesale Customer Assist queue with callback and Salesforce context → wholesale caller ID → Paging Group → schedules, Operating Modes, and shared voicemail</p>
+<table>
+<thead>
+<tr>
+<th>Requirement</th>
+<th>Possible design</th>
+<th>Important considerations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>UB-1: One professional front door</strong></td>
+<td>Use an Auto Attendant on the published main number.</td>
+<td>Provide choices for the storefront, wholesale service, deliveries, and hours or directions. Define no-input, invalid-input, operator, voicemail, and after-hours behavior.</td>
+</tr>
+<tr>
+<td><strong>UB-2: Mobile business identity</strong></td>
+<td>Use Webex App mobile or Webex Go with a Webex Calling business identity.</td>
+<td>Employees remain reachable without exposing personal numbers. Confirm the users, numbers, outbound identity, mobile experience, and return-call path.</td>
+</tr>
+<tr>
+<td><strong>UB-3: Wholesale callers wait for the right team</strong></td>
+<td>Use a Customer Assist queue with the four wholesale coordinators.</td>
+<td>Define routing, queue capacity, announcements, music, callback eligibility, overflow, unavailable-team behavior, and final ownership.</td>
+</tr>
+<tr>
+<td><strong>UB-4: Salesforce context at answer</strong></td>
+<td>Use a Customer Assist screen pop with a supported Salesforce search or record URL.</td>
+<td>Define the Salesforce objects, fields, search pattern, inbound call data, authentication, and desktop assumptions. Include duplicate and unknown-number handling.</td>
+</tr>
+<tr>
+<td><strong>UB-5: Recognizable wholesale callback identity</strong></td>
+<td>Present the approved wholesale service number on outbound callbacks.</td>
+<td>Confirm who may use the number and verify that calling it returns to the staffed wholesale route.</td>
+</tr>
+<tr>
+<td><strong>UB-6: Warehouse delivery broadcast</strong></td>
+<td>Use a Paging Group for the supported warehouse phones.</td>
+<td>Define authorized originators, eligible targets, and supported primary devices. Paging is a live, one-way broadcast.</td>
+</tr>
+<tr>
+<td><strong>UB-7: Hours, closures, and owned voicemail</strong></td>
+<td>Use schedules and Operating Modes for normal hours, holidays, and unexpected closures. Use a shared mailbox or Voicemail Group for unanswered wholesale calls.</td>
+<td>Define who can activate and restore a closure, who owns the mailbox, and where an audio copy is sent.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="important-urban-bean-boundaries">Important Urban Bean boundaries</h3>
+<ul>
+<li>Customer Assist screen pop is a desktop workflow; it does not replace mobile calling.</li>
+<li>Caller-number matching does not guarantee one unique Salesforce record.</li>
+<li>Webex Go requires confirmation of provider, plan, device or eSIM, and entitlement.</li>
+<li>A Hunt Group is not a substitute for a queue that needs waiting treatment, callback, or Customer Assist capabilities.</li>
+<li>Shared wholesale voicemail should belong to the team, not one coordinator.</li>
+</ul>
+<h3 id="useful-urban-bean-discovery-questions">Useful Urban Bean discovery questions</h3>
+<ul>
+<li>What are the wholesale peak volumes, acceptable wait time, callback threshold, and final destination when no coordinator is available?</li>
+<li>Which Salesforce objects and fields should open for a known caller?</li>
+<li>How should duplicate and unknown phone numbers be handled?</li>
+<li>Which employees need Webex App mobile, and is a native mobile dialer required?</li>
+<li>Who may declare a closure, and who owns the shared wholesale mailbox?</li>
+</ul>
+<h2 id="riverside-unified-school-district">Riverside Unified School District</h2>
+<h3 id="design-at-a-glance_1">Design at a glance</h3>
+<p>District Auto Attendant → school-specific Auto Attendants → Dial by Name and Dial by Extension → teacher voicemail → school-office Hunt Groups and attendance shared mailboxes → Spanish Auto Attendant → schedules and Operating Modes</p>
+<table>
+<thead>
+<tr>
+<th>Requirement</th>
+<th>Possible design</th>
+<th>Important considerations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>RS-1: District main number</strong></td>
+<td>Use a district Auto Attendant on the published district number.</td>
+<td>Provide choices for schools, enrollment, transportation, the directory, and an operator. Define no-input, invalid-input, repeat, and after-hours behavior.</td>
+</tr>
+<tr>
+<td><strong>RS-2: Local front door for each school</strong></td>
+<td>Use a separate Auto Attendant for each school’s published number.</td>
+<td>Include the school name, local greeting, office, attendance, nurse, and directory choices.</td>
+</tr>
+<tr>
+<td><strong>RS-3: Find teachers and staff</strong></td>
+<td>Use Dial by Name and Dial by Extension actions in the Auto Attendant.</td>
+<td>Define the directory scope, four-digit extension plan, naming standards, and searchable staff.</td>
+</tr>
+<tr>
+<td><strong>RS-4: Teacher voicemail</strong></td>
+<td>Route unanswered teacher calls to the selected teacher’s personal Webex Calling voicemail.</td>
+<td>Define no-answer behavior, ring duration, mailbox ownership, and whether the policy requires an email notification or an attached audio recording.</td>
+</tr>
+<tr>
+<td><strong>RS-5: Main-office coverage</strong></td>
+<td>Use a Hunt Group for each school’s three administrative assistants.</td>
+<td>Choose simultaneous or ordered ringing, ring duration, busy behavior, and the shared main-office voicemail destination.</td>
+</tr>
+<tr>
+<td><strong>RS-6: Attendance messages</strong></td>
+<td>Use a separate shared mailbox or Voicemail Group for attendance at each school.</td>
+<td>Define the greeting, access owners, storage, and shared attendance email address that receives the audio copy.</td>
+</tr>
+<tr>
+<td><strong>RS-7: English and Spanish paths</strong></td>
+<td>Use a Spanish-language Auto Attendant with parallel destinations.</td>
+<td>Keep the English and Spanish menus aligned and assign an owner for maintaining both versions.</td>
+</tr>
+<tr>
+<td><strong>RS-8: School-day, after-hours, delay, and closure routing</strong></td>
+<td>Use schedules and Operating Modes for normal hours, holidays, delayed openings, and closures.</td>
+<td>Define district-wide versus school-specific scope, messages, destinations, authorized users, and restoration procedures.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="important-riverside-boundaries">Important Riverside boundaries</h3>
+<ul>
+<li>Office assistants are not described as a formal queue team, so Customer Assist and Call Queue capabilities are not automatically required.</li>
+<li>Dial by Name and Dial by Extension provide directory access; they do not determine whether a teacher should answer during instruction.</li>
+<li>Teacher voicemail should remain personal, while school-office and attendance voicemail should remain team-owned.</li>
+<li>A separate Spanish Auto Attendant provides clearer system prompts and parallel routing than one bilingual greeting.</li>
+<li>A Hunt Group is appropriate for simple office call distribution. A Call Queue requires a new requirement such as caller waiting, capacity management, callback, or queue reporting.</li>
+</ul>
+<h3 id="useful-riverside-discovery-questions">Useful Riverside discovery questions</h3>
+<ul>
+<li>Should Dial by Name search the entire district or only the selected school?</li>
+<li>Which staff members should be included in the public directory?</li>
+<li>Should teacher calls ring a classroom device, Webex App, or go directly to voicemail during instruction?</li>
+<li>Should each main office ring simultaneously or in a specific order?</li>
+<li>Who maintains the English and Spanish menus?</li>
+<li>Who may activate a district-wide or school-specific delay or closure?</li>
+</ul>
+<h2 id="reusable-design-reminders">Reusable design reminders</h2>
+<ul>
+<li>Start with the customer journey, not a feature list.</li>
+<li>Explain the normal path and at least one exception path.</li>
+<li>Identify who owns every mailbox, queue, number, and exception.</li>
+<li>State assumptions that could change the design.</li>
+<li>Choose the simplest feature that meets the stated requirement.</li>
+<li>Explain why a plausible alternative does not fit as well.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2026 Cisco
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.indexes", "navigation.instant", "navigation.top", "navigation.footer", "search.suggest", "content.code.copy", "toc.integrate"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../template_assets/js/newLoad.js"></script>
+      
+        <script src="../template_assets/js/setInfo.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": false, "openEffect": "fade", "closeEffect": "fade", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
