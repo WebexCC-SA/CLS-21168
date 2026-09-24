@@ -33,7 +33,7 @@
 * **Voicemail Group / Shared Voicemail:** Provides a shared mailbox for a department or call-routing feature. A voicemail group or virtual-line mailbox can have a common greeting, controlled access, notifications, and an optional transfer-to-zero destination.
 * **Email a Copy of Message:** Sends the voicemail audio recording to a designated email address. This is different from a new-message notification; internal versus external storage choices affect in-app access and transcription.
 * **Voicemail Transcription:** Converts supported voicemail messages to text and can deliver the transcript with the audio by email when the organization and mailbox settings allow it.
-* **Customer Assist screen pop:** Customer Assist screen pop can open a supported URL or search workflow for inbound calls; define how known, duplicate, and unknown numbers are handled. Can be used to provide information about customers from CRM’s such as Salesforce.
+* **Customer Assist screen pop:** Customer Assist screen pop can open a supported URL or search workflow for inbound calls; define how known, duplicate, and unknown numbers are handled. It can be used to provide information about customers from CRMs such as Salesforce.
 * **Webex Calling Detailed Call History / CDR:** Organizational call metadata such as parties, time, direction, duration, and routing. Detailed Call History reports or the CDR API support analysis and export; CDR is not conversation audio.
 * **Compliance, eDiscovery, and Legal Hold:** Allows an authorized compliance officer to search and export eligible Webex Calling CDR and call-recording content and preserve covered data under legal hold. Availability, retention, licensing, geography, and provider storage must be confirmed.
 * **Queue Analytics, Reports, and Supervisor Views:** Provides live and historical queue and agent information, including answered and abandoned calls, wait and handle measures, agent state, and service-level trends. The exact experience depends on Call Queue or Customer Assist licensing.
@@ -51,9 +51,9 @@
 
 ### Shared Spaces and Devices
 
-* **Workspaces:** Shared, location-based calling identities for conference rooms, common areas, hot desks, and other shared spaces. Workspaces can have assigned devices, extensions, and phone numbers. [Cisco documentation](https://help.webex.com/article/n9r1aac)
+* **Workspaces:** Shared, location-based calling identities for conference rooms, common areas, hot desks, and other shared spaces. Workspaces can have assigned devices, extensions, and phone numbers.
 * **DECT Network:** A Control Hub container for managing Cisco DECT base stations and handsets, including single-cell and multicell deployments, handset assignments, and multiple lines.
-* **Cisco Wireless Devices (Phones):** Cisco Wireless Phones 840 and 860 that provide mobile Webex Calling service over Wi-Fi and can be onboarded and assigned to users.
+* **Cisco Wireless Devices (Phones):** Cisco Wireless Phones 840 and 860 provide mobile Webex Calling service over Wi-Fi and can be onboarded and assigned to users.
 
 ## Webex User Hub: The End-User Control Center
 

@@ -11,9 +11,9 @@
 **DESIGN INSTRUCTION**
 
 * Do not start with a feature list. Translate the numbered requirements into the smallest design that creates the stated outcome.
-* Use the cheat sheet, each other, your own Collaboration Control Hub or instructor provided demo login for reference, and/or help.webex.com.
+* Use the cheat sheet, each other, your own Collaboration Control Hub or the instructor-provided demo login for reference, and/or help.webex.com.
 * We are not configuring anything in Collaboration Control Hub.
-* There may be more than one way to meet requirements.
+* There may be more than one way to meet the requirements.
 
 ## **Current environment**
 

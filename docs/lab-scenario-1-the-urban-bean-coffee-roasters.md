@@ -6,19 +6,19 @@
 
 !!! quote "Customer Voice"
 
-    We have one storefront, a roastery, and a warehouse, but our wholesale business now serves cafes, hotels, and restaurants across the region. Store and operations employees are rarely at desks, and they must not expose personal mobile numbers. Wholesale customers call about orders, deliveries, and equipment support, and our service coordinators use a CRM to manage those accounts. We want one professional phone experience that routes callers correctly, gives the wholesale team useful account context, and still lets warehouse staff hear delivery announcements.
+    We have one storefront, a roastery, and a warehouse, but our wholesale business now serves cafes, hotels, and restaurants across the region. Store and operations employees are rarely at their desks, and they must not expose personal mobile numbers. Wholesale customers call about orders, deliveries, and equipment support, and our service coordinators use a CRM to manage those accounts. We want one professional phone experience that routes callers correctly, gives the wholesale team useful account context, and still lets warehouse staff hear delivery announcements.
 
 **DESIGN INSTRUCTION**
 
 * Do not start with a feature list. Translate the numbered requirements into the smallest design that creates the stated outcome.
-* Use the cheat sheet, each other, your own Collaboration Control Hub for reference, instructor provided Control Hub demo login, and/or help.webex.com.
+* Use the cheat sheet, each other, your own Collaboration Control Hub for reference, the instructor-provided Control Hub demo login, and/or help.webex.com.
 * We are not configuring anything in Collaboration Control Hub.
-* There may be more than one way to meet requirements.
+* There may be more than one way to meet the requirements.
 
 ## **Current environment**
 
 * Urban Bean Coffee Roasters (UB) is replacing a legacy key system while retaining one published main number and a separate wholesale number used on invoices.
-* Ten storefront, roastery, and warehouse employees work away from desks. Some carry personal phones and some use company-owned phones.
+* Ten employees across the storefront, roastery, and warehouse work away from their desks. Some carry personal phones and some use company-owned phones.
 * Four wholesale service coordinators answer order, delivery, and equipment questions from Webex App desktop. A CRM stores business accounts, contacts, and cases.
 * Retail hours, wholesale service hours, holidays, and weather closures differ. The warehouse has four supported desk phones used by receiving, roasting, packing, and the supervisor.
 
