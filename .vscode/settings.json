@@ -1,5 +1,13 @@
 {
   "markdown.copyFiles.destination": {
     "**/*": "assets/${fileName}"
-  }
+  },
+  "cSpell.words": [
+    "glightbox",
+    "LABXXX",
+    "materialx",
+    "twemoji",
+    "wrappingup",
+    "zoomable"
+  ]
 }

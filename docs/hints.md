@@ -53,3 +53,4 @@ Use these hints one at a time. Stop as soon as your group can continue designing
 - Which feature provides the required capability, not just a similar-sounding feature?
 - Who owns the final destination, mailbox, or exception?
 - What assumption could change the design?
+  
