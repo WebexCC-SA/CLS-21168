@@ -91,6 +91,11 @@ nav:
   - Customer Scenarios:
        - Urban Bean Coffee Roasters: lab-scenario-1-the-urban-bean-coffee-roasters.md
        - Riverside Unified School District: lab-scenario-2-riverside-unified-school-district.md
+       #- BONUS - Lakeshore Community Health Network: lab-scenario-3-lakeshore-community-health-network.md
   - Webex Calling Feature Cheat Sheet: lab-webex-calling-feature-cheat-sheet.md
-  #- Possible Scenario Outcomes: possible-scenario-designs.md
+ # - Possible Scenario Outcomes:
+  # - Urban Bean Coffee Roasters: solutionurbanbean.md
+   # - Riverside Unified School District: solutionriverside.md
+   # - Lakeshore Community Health Network: solutionlakeshore.md
+   # - Design reminders: designreminders.md
   - Wrapping Up: wrappingup.md

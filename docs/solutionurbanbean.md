@@ -1,6 +1,10 @@
-# Possible Solution: Urban Bean Coffee Roasters
+# Possible Scenario Designs
 
-## Design at a glance
+These are possible designs for each scenario. Other designs may also be valid if they meet the customer requirements, explain the tradeoffs, and identify important assumptions.
+
+## Urban Bean Coffee Roasters
+
+### Design at a glance
 
 Auto Attendant → mobile Webex Calling identities → Wholesale Customer Assist queue with callback and CRM context → Wholesale caller ID → Paging Group → Schedules, Operating Modes, and shared voicemail
 
@@ -14,7 +18,7 @@ Auto Attendant → mobile Webex Calling identities → Wholesale Customer Assist
 | **UB-6: Warehouse delivery broadcast** | Use a Paging Group for the supported warehouse phones. | Define authorized originators, eligible targets, and supported primary devices. Paging is a live, one-way broadcast. |
 | **UB-7: Hours, closures, and owned voicemail** | Use schedules and Operating Modes for normal hours, holidays, and unexpected closures. Use a shared mailbox or Voicemail Group for unanswered wholesale calls. | Define who can activate and restore a closure, who owns the mailbox, and where an audio copy is sent. |
 
-## Important Urban Bean boundaries
+### Important Urban Bean boundaries
 
 - Customer Assist screen pop is a desktop workflow; it does not replace mobile calling.
 - Caller-number matching does not guarantee one unique CRM record.
@@ -22,12 +26,10 @@ Auto Attendant → mobile Webex Calling identities → Wholesale Customer Assist
 - A Hunt Group is not a substitute for a queue that needs waiting treatment, callback, or Customer Assist capabilities.
 - Shared wholesale voicemail should belong to the team, not one coordinator.
 
-## Useful Urban Bean discovery questions
+### Useful Urban Bean discovery questions
 
 - What are the wholesale peak volumes, acceptable wait time, callback threshold, and final destination when no coordinator is available?
 - Which CRM objects and fields should open for a known caller?
 - How should duplicate and unknown phone numbers be handled?
 - Which employees need Webex App mobile, and is a native mobile dialer required?
 - Who may declare a closure, and who owns the shared wholesale mailbox?
-
-
