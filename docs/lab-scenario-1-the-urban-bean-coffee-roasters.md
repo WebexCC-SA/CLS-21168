@@ -83,4 +83,4 @@
 
 ??? tip "Stuck?"
 
-    [Maybe these hints will help. But don't use them unless you have to!](hints.md)
+    [Maybe these hints will help. But don't use them unless you have to!](hints.md){target="_blank"} (Opens in a new tab)
