@@ -18,7 +18,20 @@ This will help you:
 - We are not configuring anything in Collaboration Control Hub.
   
 **Demo logins**
-  INSERT HERE
+  
+If you'd like to view Control Hub, use one of these read-only demo logins. 
+
+Demo 1
+Username: damian.breitenberg@cumulusorg.com
+Password: WebexOne26!
+
+Demo 2
+Username: ryley.hauck@cumulusorg.com
+Password: WebexOne26!
+
+Demo 3
+Username: jamaal.harvey@cumulusorg.com
+Password: WebexOne26!
 
 ## **What every team should deliver**
 

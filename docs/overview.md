@@ -9,15 +9,31 @@ This will help you:
 - Explain and defend customer-centered recommendations.
   
 ## Getting started
-* Create a team of 5 based on the customer logo you have at your seat.
+* Create a team of 5 based
+* Choose one of the customer logos on your table for your team.
 * Each table should have 2 teams. One for each scenario.
 * Name a facilitator, scribe, and spokesperson.
-* Open your team's section of the online guide. 
 * Use the cheat sheet, each other, your own Collaboration Control Hub for reference, the instructor-provided demo login, and/or <a href="https://help.webex.com" >help.webex.com.</a>
 * We are not configuring anything in Collaboration Control Hub.
   
-### Demo logins
- Demo logins will be added before the workshop.
+## Collaboration Control Hub demo logins
+
+If you'd like to view Control Hub, use one of these read-only demo logins. 
+
+**Demo 1**
+
+- Username: damian.breitenberg@cumulusorg.com
+- Password: WebexOne26!
+
+**Demo 2**
+
+- Username: ryley.hauck@cumulusorg.com
+- Password: WebexOne26!
+
+**Demo 3**
+
+- Username: jamaal.harvey@cumulusorg.com
+- Password: WebexOne26!
 
 ## **What every team should deliver**
 
